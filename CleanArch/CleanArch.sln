@@ -10,9 +10,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Infra.Data", "Cle
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.UI.Mvc", "CleanArch.UI.Mvc", "{01DBBFE9-E3AF-4784-8FB4-CAB78FE79955}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Mvc", "CleanArch.Mvc\CleanArch.Mvc.csproj", "{2F354166-C080-47B9-9505-47919E77CFC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F354166-C080-47B9-9505-47919E77CFC7} = {01DBBFE9-E3AF-4784-8FB4-CAB78FE79955}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F354166-C080-47B9-9505-47919E77CFC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F354166-C080-47B9-9505-47919E77CFC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F354166-C080-47B9-9505-47919E77CFC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F354166-C080-47B9-9505-47919E77CFC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
